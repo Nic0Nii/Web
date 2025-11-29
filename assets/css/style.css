@@ -308,6 +308,7 @@
 .section-three{
     background-color: var(--color-background);
     text-align: center;
+    padding-bottom: 50px;
 }
 .section-three .box-1{
     padding-top: 30px;
@@ -326,9 +327,42 @@
     font-size: 24px;
     font-weight: 400;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .section-three .box-2{
     display: flex;
 }
+.section-three i{
+    font-size: 38px;
+}
 /* End Section Three */
+/* Section four */
+.section-four{
+    background-color: white;
+}
+.section-four .container .inner-wrap{
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;   
+}
+.section-four .container .inner-wrap img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.section-four .container .inner-wrap .inner-content{
+    width: 50%;
+    align-content: center;
+}
+.section-four .container .inner-wrap .inner-image{
+    width: 50%;
+}
+.section-four .container .inner-wrap .inner-content .inner-title{
+    font-size: 50px;
+    color: var(--color-one);
+}
+.section-four .container .inner-wrap .inner-content .inner-desc{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+/* End Section Four */
